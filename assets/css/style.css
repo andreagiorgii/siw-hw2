@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    column-gap: 10px;
+      justify-content: space-between;
+}
+
+footer,
+header {
+    font-size: 24px;
+    background-color: #2d4fa4;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+i {
+    color: gray;
+}
+
+.flex-container {
+	 margin: 1em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background: white;
+    flex-grow: 1;
+}
+
+.flex-item {
+    justify-content: space-between;
+    border-radius: 20px;
+   -webkit-box-shadow: -1px 0px 34px -19px #000000;
+-moz-box-shadow: -1px 0px 34px -19px #000000;
+-o-box-shadow: -1px 0px 34px -19px #000000;
+box-shadow: -1px 0px 34px -19px #000000;
+}
+
+#main {
+    width: 65%;
+    height: 100%;
+}
+
+.header-list{
+	background-color: #2d4fa4;
+	padding: 5px 20px 5px 20px;
+	color: white;
+	font-weight: 400;
+	border-radius: 100px;
+}
+
+.button-email{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #2d4fa4;
+	color: white;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+.button-email > a > i {
+	font-size: 25px;
+	padding: 12px;
+	color: white;
+}
+
+.profile-image {
+    background-size: cover;
+    background-position: top;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C5603AQHL0JiMR8-jBQ/profile-displayphoto-shrink_200_200/0/1516266031944?e=1655337600&v=beta&t=zPM6QOuo1a_ORuPYWoyKn6E8Wec16ZCZTulJp_mR9G0");
+    background-color: #2d4fa4;
+    border: 3px solid #2d4fa4;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.profile-desc>p {
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+    margin: 1px;
+}
+
+.content-box {
+    margin: 25px;
+}
+
+#sidebar {
+    width: 30%;
+    height: 420px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+}
