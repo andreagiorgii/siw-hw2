@@ -1,3 +1,3 @@
-#HW2 - Pagina statica CSS & HTML
-## Andrea Giorgi
-## 547410
+# HW2 - Pagina statica CSS & HTML
+Andrea Giorgi
+547410
